@@ -1,0 +1,78 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#131313;
+	color: #aaa;
+}
+
+header {
+	padding: 24px;
+	margin: 0 auto;
+	border: 1px solid orange;
+	text-align: center;
+}
+header h1 {
+	color: orange;
+	font-size: 37px;
+	font-family:sans-serif;
+}
+
+nav {
+  height: 60px;
+  border-bottom: 1px solid orange;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaa;
+}
+
+nav a:hover {
+	color:#ccc;
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+input[type="search"] {
+  flex: 3;
+}
+
+input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #333;
+  border: 0;
+  color: white;
+}

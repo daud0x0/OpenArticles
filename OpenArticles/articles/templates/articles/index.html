@@ -4,5 +4,17 @@
 {% endblock %}
 
 {% block body %}
-	<h1>Welcome To OpenArticles</h1>
+	<header>
+		<h1>OpenArticles</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/">Create New</a></li>
+			<li><a href="/">Random Page</a></li>
+		</ul>
+		<form action="" method="get">
+			<input type="search" placeholder="Search" name="q">
+		</form>
+	</nav>
 {% endblock %}
