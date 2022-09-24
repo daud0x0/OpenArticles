@@ -7,3 +7,5 @@ OpenArticles
 	$ cd OpenAritcles/OpenArticles/
 	$ python3 manage.py runserver
 	Got got that addr: http://localhost:8000
+
+![Image](/src/screenshot.png)
