@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, "articles/index.html")
+
+
+def createPage(request):
+    return render(request, "articles/index.html"),

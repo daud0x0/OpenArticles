@@ -1,0 +1,10 @@
+{% extends 'articles/layout.html' %}
+{% block title %}Create New Page{% endblock %}
+{% block body %}
+	<h1>Create New Page</h1>
+	<form action="" , method="ok">
+		<textarea id="text", name="text" rows="10", cols="16" placeholder="This support Markdown file">
+		</textarea>
+		<input type="submit" value="Create">
+	</form>
+{% endblock %}

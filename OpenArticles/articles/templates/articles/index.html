@@ -10,11 +10,29 @@
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="/">Create New</a></li>
+			<li><a href="{% url 'create' %}">Create New</a></li>
 			<li><a href="/">Random Page</a></li>
 		</ul>
 		<form action="" method="get">
 			<input type="search" placeholder="Search" name="q">
 		</form>
 	</nav>
+
+	<main>
+		<div class="quote">
+			<q>
+				Arguing that you don’t care about the right to privacy because you have nothing to hide is no different than saying you don’t care about free speech because you have nothing to say.
+			</q>
+		</div>
+		<div class="quote">
+			<q>
+			I think computer viruses should count as life. I think it says something about human nature that the only form of life we have created so far is purely destructive. We’ve created life in our own image.
+			</q>
+		</div>
+
+		<div class="quote">
+			<q>
+				Security leaders are under a lot of pressure to show quick wins while knowing full well that everything they do will be heavily scrutinized and challenged, and ultimately, they will pay the price for things that are not under their
+			</q>
+	</main>
 {% endblock %}

@@ -76,3 +76,19 @@ input[type="submit"] {
   border: 0;
   color: white;
 }
+
+main {
+	width: 30%;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: rgba(255, 165, 0, 0.24) 0px 3px 8px;
+}
+
+.quote{
+	padding: 35px;
+	margin: 0 auto;
+	border: 1px solid orange;
+	margin-top: 50px;
+}
+
+
