@@ -9,3 +9,5 @@ OpenArticles
 	Go to that addr: http://localhost:8000
 
 ![Image](/src/screenshot.png)
+
+### Tank You!
