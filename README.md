@@ -10,4 +10,4 @@ OpenArticles
 
 ![Image](/src/screenshot.png)
 
-### Tank You!
+### Thank you!
